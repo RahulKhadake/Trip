@@ -1,0 +1,47 @@
+
+.trip-scroll-container {
+  max-height: 400px; 
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.trip-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.trip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  min-width: 100px;
+}
+
+.line {
+  flex: 1;
+  text-align: center;
+}
+
+.level-1 .line i {
+  color: #007bff;
+}
+
+.level-2 .line span {
+  color: #28a745;
+}
+
+.straight-line {
+  color: gray;
+}
